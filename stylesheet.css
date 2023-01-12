@@ -1,0 +1,213 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+  
+/* Added style to the header */
+.header {
+    background-color: rgb(141, 59, 182);
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
+    border-style: double;
+    border-width: 2px;
+    border-color: hotpink;
+}
+
+/* Added style to the body */
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: darkorchid;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Added style to the h2 */
+h1{
+    font-size: 28px;
+    }
+
+/* Added style to the h1 */
+h2{
+    font-size: 23px;
+    }  
+
+/* Added style to the navigation bar */
+.navbar {
+    background-color: rgb(141, 59, 182);
+    text-align: center;
+    margin: 20px;
+    padding: 17px;
+    border-style: double;
+    border-width: 2px;
+    border-color: hotpink;
+}
+
+/* Added style to the navigation bar links*/
+.navbar a {
+    font-size: 22px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Added style to the navigation bar links while hovering them */
+.navbar a:hover {
+    background-color: hotpink;
+}
+
+/* Added style to the navigation bar links when pressed*/
+.navbar a:active {
+    background-color: white;
+}
+
+/* Added style to the aside */
+aside{
+    float: right;
+}
+
+/* Added style to the main */
+main{
+    background-color: rgb(141, 59, 182);
+    border-style: double;
+    border-width: 2px;
+    border-color: hotpink;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Added style to the article */
+article{
+    padding-left: 20px;
+}
+
+/* Added style to the section */
+section{
+    padding-left: 20px;
+}
+
+/* Added style to the ul */
+ul{
+    font-size: 16px;
+    font-style: italic;
+    line-height: normal;
+    padding-left: 15px;
+}
+
+/* Added style to the footer */
+footer{
+    background-color: rgb(141, 59, 182);
+    border-style: double;
+    border-width: 2px;
+    border-color: hotpink;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding-left: 25px;
+}
+
+/* Added style to the footer links*/
+footer a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding-left: 5px;
+    line-height: 2;
+}
+
+/* Added style to the footer links while hovering*/
+footer a:hover{
+    background-color: hotpink;
+}
+
+/* Added style to the footer links when pressed*/
+footer a:active {
+    background-color: white;
+}
+
+/* Added style to the input */
+input{
+    width:10%;
+    font-weight: bold;
+    margin: 8px;
+    border-style: double;
+    border-width: 2px;
+    border-color: hotpink;
+    background-color: rgb(141, 59, 182);
+}
+
+/* Added style to the placeholder */
+::placeholder{
+    color:black;
+}
+
+/* Added style to the label */
+label{
+    font-weight: bold;
+    margin: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-style: double;
+    border-width: 2px;
+    border-color: hotpink;
+    background-color: rgb(141, 59, 182);
+}
+
+/* Added style to the textarea */
+textarea{
+    font-weight: bold;
+    margin: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-style: double;
+    border-width: 2px;
+    border-color: hotpink;
+    background-color: rgb(141, 59, 182);
+}
+
+/* Added style to the submit button when hovered */
+.inp:hover{
+    background-color: hotpink;
+}
+
+/* Added style to the submit button when pressed */
+.inp:active{
+    background-color: white;
+}
